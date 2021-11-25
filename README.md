@@ -1,4 +1,4 @@
 # final-project
-Erika and Marieanne's Final Promineo Tech Backend Project.
+Erika and Marianne's Final Promineo Tech Backend Project.
 
 ![ERD Diagram](erd.png "ERD Diagram")
