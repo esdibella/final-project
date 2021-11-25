@@ -7,11 +7,10 @@ import lombok.Data;
 @Builder
 public class Flight {
   private Long id;
-  private String departureDate;
-  private String arrivalDate;
-  private Long equipmentId;
-  private Long depatureAirportId;
   private Long arrivalAirportId;
+  private String arrivalDateTime;
+  private Long depatureAirportId;
+  private String departureDateTime;
   private String description;
-  
+  private Long equipmentId;
 }
