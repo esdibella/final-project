@@ -1,3 +1,5 @@
+USE flight_reservation;
+
 INSERT INTO airport 
     (airport_code, description) 
 VALUES 
@@ -29,7 +31,7 @@ INSERT INTO flight
 VALUES
     (1, "2021-11-25T05:25:00Z", 2, "2021-11-25T02:55:00Z", "American Airlines", 1),
     (1, "2021-11-25T06:25:00Z", 3, "2021-11-25T03:55:00Z", "Delta Airlines", 2),
-    (1, "2021-11-25T07:25:00Z", 4, "2021-11-25T04:55:00Z", "United Airlines", 3),
+    (1, "2021-11-25T07:25:00Z", 4, "2021-11-25T04:55:00Z", "United Airlines", 3);
 
 
 INSERT INTO reservation 
